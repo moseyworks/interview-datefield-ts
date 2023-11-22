@@ -1,7 +1,6 @@
 # About
 
-This is the initial template for running the datefield interview question. The project uses boilerplate webpack and typescript setup for convenience.
-
+This is framework for running the datefield interview question. The project uses Vanilla Vite with Typescript and Jest.
 
 ## Running the dev server
 
@@ -9,8 +8,7 @@ This is the initial template for running the datefield interview question. The p
 npm install && npm start
 ```
 
-The dev server will be running on `localhost:9000` and any code changes to source files will automatically reload the browser on save.
-
+The dev server will be running on [`http://localhost:5173/`](http://localhost:5173/) and any code changes to source files will automatically reload the browser on save.
 
 ## Running tests
 
@@ -18,6 +16,4 @@ The dev server will be running on `localhost:9000` and any code changes to sourc
 npm test
 ```
 
-## Using vanilla JavaScript instead TypeScript
-
-You can use js instead of ts by renaming `index.ts` to `index.js`, changing `entry` in `webpack.dev.js` to `./src/index.js`, and restarting the dev server.
+This repo uses Jest for testing. There is a test file named `index.spec.ts` stubbed out.

@@ -1,3 +1,3 @@
-import '../assets/index.css';
+import "./index.css";
 
-console.log('Hello from ts');
+console.log("Hello from ts");
